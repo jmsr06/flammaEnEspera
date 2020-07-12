@@ -1,0 +1,48 @@
+body {
+    background-image: url(f4.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10%;
+    margin:0;
+}
+#logo{
+    float: left;
+    margin:auto;
+    text-align: center;
+    width: 100%;
+}
+#logo img{
+    clear: left;
+    margin:auto;
+    text-align: center;
+    width: 50%;
+}
+#proximamente{
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+}
+
+footer div{
+    box-sizing: border-box;
+    float: left;
+    width: 31.33%;
+    height: auto;
+    margin: 1%;
+}
+footer div img{
+    width: 80%;
+    height: auto;
+}
+
+@media (min-width: 360px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1200px) {
+
+}
