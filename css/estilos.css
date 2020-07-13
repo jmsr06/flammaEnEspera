@@ -7,6 +7,14 @@
 
 }
 html{
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+body {
+    padding: 0;
+    width: 100%;
     height: 100%;
     position: relative;
     font-family: serif;
@@ -15,69 +23,70 @@ html{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
-body {
+.contenedor{
     text-align: center;
     color: #fff;
     overflow-x: hidden;
     overflow-y: hidden;
     position: absolute;
-    top: 50%;
-    left: 50%;
     width: 100%;
     height: 50%;
-    margin: -16.068% 0 0 -50%;
+    top: 25%;
+    left: 50%;
+    margin: 0 0 0 -50%;
 }
 #logo{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
     font-family: gothiceregular;
-    font-size: 45px;
+    font-size: 65px;
 }
 #proximamente{
-    font-size: 20px;
-    margin-top: 8%;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    padding-top: -50%;
+    box-sizing: border-box;
 }
 #redes-sociales{
-    margin-top: 8%;
     display: block;
-    position: relative;
+    position: absolute;
     height: auto;
-    width: 100%;
-    padding: 0 15% 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0 25% 0;
 }
 #redes-sociales div{
     position: relative;
-    float: left;
-    display: block;
-    width: 23.33%;
+    display: inline-block;
+    width: 30%;
 }
 #redes-sociales div a{
     text-decoration: none;
     position: relative;
+    height: 100%;
 }
 #redes-sociales div a img{
-    width: 50%;
+    width: 80%;
 }
 
-@media (min-width: 360px) {
-body{
-    padding: 0;
-}
+@media (min-width: 360px){
 #logo{
-    font-size: 75px;
-    margin: 0;
-    padding: 0;
+    font-size: 70px;
 }
 #proximamente{
     font-size: 35px;
-    margin: 0;
-    padding-top: 3%;
-}
-#redes-sociales{
-    margin-top: 10%;
-    padding: 0 25% 0;
 }
 #redes-sociales div{
-    width: 16.66%;
+    width: 30%;
 }
 #redes-sociales div a img{
     width: 80%;
@@ -85,56 +94,38 @@ body{
 }
 
 
-@media (min-width: 768px) {
-body{
-    padding: 0;
-}
+@media (min-width: 768px){
 #logo{
     font-size: 100px;
-    margin: 0;
-    padding: 0;
 }
 #proximamente{
-    font-size: 40px;
-    margin: 0;
-    padding-top: 3%;
+    font-size: 35px;
 }
-#redes-sociales{
-    margin-top: 5%;
-    padding: 0 35% 0;
+#redes-sociales div a img{
+    width: 55%;
 }
-#redes-sociales div{
-    width: 10%;
+}
+
+@media (min-width: 1200px){
+#logo{
+    font-size: 100px;
+}
+#proximamente{
+    font-size: 35px;
 }
 #redes-sociales div a img{
     width: 45%;
 }
 }
-
-
-@media (min-width: 1200px) {
-body{
-    padding: 0;
-}
+@media (min-width: 360px) and (max-width: 768px) and (orientation:landscape){
 #logo{
-    font-size: 150px;
-    margin: 0;
-    padding: 0;
+    font-size: 3.5rem;
 }
 #proximamente{
-    font-size: 52px;
-    margin:0;
-    padding-top: 2%;
-}
-#redes-sociales{
-    margin-top: 4%;
-    padding: 0 35% 0;
-}
-#redes-sociales div{
-    width: 10%;
+    font-size: 1.8rem;
 }
 #redes-sociales div a img{
-    width: 43%;
+width: 25%;
 }
 }
 
