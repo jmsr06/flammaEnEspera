@@ -83,7 +83,7 @@ body {
     font-size: 70px;
 }
 #proximamente{
-    font-size: 35px;
+    font-size: 2rem;
 }
 #redes-sociales div{
     width: 30%;
@@ -99,7 +99,7 @@ body {
     font-size: 100px;
 }
 #proximamente{
-    font-size: 35px;
+    font-size: 2.5rem;
 }
 #redes-sociales div a img{
     width: 55%;
@@ -113,19 +113,42 @@ body {
 #proximamente{
     font-size: 35px;
 }
-#redes-sociales div a img{
-    width: 45%;
+#redes-sociales div{
+    width: 17%;
 }
+#redes-sociales div a img{
+    width: 55%;
+}
+
 }
 @media (min-width: 360px) and (max-width: 768px) and (orientation:landscape){
 #logo{
     font-size: 3.5rem;
 }
+
 #proximamente{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+}
+#redes-sociales div{
+    width: 15%;
 }
 #redes-sociales div a img{
-width: 25%;
+width: 70%;
 }
 }
+@media (min-width: 768px) and (max-width: 1200px) and (orientation:landscape){
+    #logo{
+        font-size: 3.5rem;
+    }
+    
+    #proximamente{
+        font-size: 1.5rem;
+    }
+    #redes-sociales div{
+        width: 15%;
+    }
+    #redes-sociales div a img{
+    width: 60%;
+    }
 
+    }
