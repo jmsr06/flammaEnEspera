@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gothiceregular';
     src: url('../font/gothice_-webfont.woff2') format('woff2'),
-         url('../font/gothice_-webfont.woff') format('woff');
+    url('../font/gothice_-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
