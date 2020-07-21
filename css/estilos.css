@@ -32,7 +32,7 @@ body {
     text-align: center;
     color: #fff;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     position: absolute;
     width: 100%;
     height: 50%;
@@ -70,7 +70,7 @@ body {
 #redes-sociales div{
     position: relative;
     display: inline-block;
-    width: 30%;
+    width: 22%;
 }
 #redes-sociales div a{
     text-decoration: none;
@@ -78,7 +78,7 @@ body {
     height: 100%;
 }
 #redes-sociales div a img{
-    width: 80%;
+    width: 90%;
 }
 
 @media (min-width: 360px){
@@ -89,10 +89,10 @@ body {
     font-size: 2rem;
 }
 #redes-sociales div{
-    width: 30%;
+    width: 23%;
 }
 #redes-sociales div a img{
-    width: 80%;
+    width: 90%;
 }
 }
 
@@ -105,7 +105,7 @@ body {
     font-size: 2.5rem;
 }
 #redes-sociales div a img{
-    width: 55%;
+    width: 80%;
 }
 }
 
@@ -114,13 +114,13 @@ body {
     font-size: 100px;
 }
 #proximamente{
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 #redes-sociales div{
     width: 17%;
 }
 #redes-sociales div a img{
-    width: 55%;
+    width:70%;
 }
 
 }
@@ -130,27 +130,26 @@ body {
 }
 
 #proximamente{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 #redes-sociales div{
     width: 15%;
 }
 #redes-sociales div a img{
-width: 70%;
+width: 80%;
 }
 }
 @media (min-width: 768px) and (max-width: 1200px) and (orientation:landscape){
     #logo{
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     #proximamente{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     #redes-sociales div{
         width: 15%;
     }
     #redes-sociales div a img{
-    width: 60%;
+    width: 70%;
     }
-
-    }
+}

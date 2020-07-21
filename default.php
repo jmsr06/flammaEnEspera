@@ -34,6 +34,11 @@
             ><img src="img/wsW.png" alt="whatsapp"
           /></a>
         </div>
+        <div id="tumblr">
+          <a href="https://666flamma666.tumblr.com" target="_blank"
+            ><img src="img/tumblr.png" alt="Tumblr"
+          /></a>
+        </div>
       </div>
     </div>
   </body>
