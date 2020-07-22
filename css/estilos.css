@@ -46,14 +46,14 @@ body {
     left:0;
     right: 0;
     font-family: gothiceregular;
-    font-size: 65px;
+    font-size: 20vw;
 }
 #proximamente{
     position: absolute;
     top: 49%;
     left: 0;
     right: 0;
-    font-size: 30px;
+    font-size: 10vw;
     padding-top: -50%;
     box-sizing: border-box;
 }
@@ -65,12 +65,12 @@ body {
     left: 0;
     right: 0;
     margin: 0;
-    padding: 0 25% 0;
+    /* padding: 0 25% 0; */
 }
 #redes-sociales div{
     position: relative;
     display: inline-block;
-    width: 22%;
+    width: 15%;
 }
 #redes-sociales div a{
     text-decoration: none;
@@ -78,78 +78,93 @@ body {
     height: 100%;
 }
 #redes-sociales div a img{
-    width: 90%;
+    width: 100%;
 }
 
 @media (min-width: 360px){
 #logo{
-    font-size: 70px;
+    font-size: 15vw;
 }
 #proximamente{
-    font-size: 2rem;
-}
-#redes-sociales div{
-    width: 23%;
-}
-#redes-sociales div a img{
-    width: 90%;
-}
-}
-
-
-@media (min-width: 768px){
-#logo{
-    font-size: 100px;
-}
-#proximamente{
-    font-size: 2.5rem;
-}
-#redes-sociales div a img{
-    width: 80%;
-}
-}
-
-@media (min-width: 1200px){
-#logo{
-    font-size: 100px;
-}
-#proximamente{
-    font-size: 3.5rem;
+    font-size: 8vw;
 }
 #redes-sociales div{
     width: 17%;
 }
 #redes-sociales div a img{
-    width:70%;
+    width: 15vw;
+}
 }
 
+@media (min-width: 768px){
+    #logo{
+        font-size: 14vw;
+    }
+    #proximamente{
+        font-size: 6.5vw;
+    }
+    #redes-sociales div{
+        width: 13%;
+    }
+    #redes-sociales div a img{
+    width: 9vw;
+    }
 }
+
 @media (min-width: 360px) and (max-width: 768px) and (orientation:landscape){
 #logo{
-    font-size: 3.5rem;
+    font-size: 15vh;
 }
 
 #proximamente{
-    font-size: 1.7rem;
+    font-size: 7vh;
 }
 #redes-sociales div{
-    width: 15%;
+    width: 7.5%;
 }
 #redes-sociales div a img{
-width: 80%;
+width: 9vh;
 }
 }
 @media (min-width: 768px) and (max-width: 1200px) and (orientation:landscape){
     #logo{
-        font-size: 4rem;
+        font-size: 15vh;
     }
     #proximamente{
-        font-size: 1.7rem;
+        font-size: 7vh;
     }
     #redes-sociales div{
-        width: 15%;
+        width: 8%;
     }
     #redes-sociales div a img{
-    width: 70%;
+    width: 9vh;
+}
+}
+@media (min-width: 1200px) {
+    #logo{
+        font-size: 15vw;
+    }
+    #proximamente{
+        font-size: 7vw;
+    }
+    #redes-sociales div{
+        width: 10%;
+    }
+    #redes-sociales div a img{
+        width:9vw;
+    }
+}
+@media (min-width: 1200px) and (orientation:landscape) {
+    #logo{
+        font-size: 16vh;
+    }
+    #proximamente{
+        font-size: 7.6vh;
+    }
+    #redes-sociales div{
+        width: 7.3%;
+    }
+    #redes-sociales div a img{
+        width:9vh;
     }
 }
